@@ -17,7 +17,6 @@ from .destinations import import_destinations
 
 __version__ = "10.0.0"
 
-
 if os.environ.get("REMOTE_DEBUG"):
     import ptvsd
 
